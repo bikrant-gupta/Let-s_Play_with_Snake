@@ -1,0 +1,93 @@
+*{
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+}
+div.navbar{
+    width:100%;
+    font-size: 20px;
+}
+.main-box{
+    padding: 0 30% 0 30%;
+    display:none;
+}
+.main-border{
+    border: 2px solid white;
+    height: 540px;
+    width: 540px;
+}
+.danger-border{
+    border:10px solid rgb(200,0,0);
+    height: 536px;
+}
+.snake-head{
+    background-color:red !important;
+    border: 1px solid white;
+}
+.snake-tail{
+    background-color: white;
+}
+.each-box{
+    /* border:1px solid white; */
+    width:25.8px;
+    height:26px;
+    float: left;
+}
+.snake-food{
+    background-color: yellow !important;
+    border-radius: 10px;
+}
+.score-level{
+    /* margin-top:20px;     */
+   /* float:left; */
+   width:100%;
+   min-height: 15px;
+   margin-bottom: 40px;
+    /* min-height: 30px; */
+}
+.score-level .instruction{
+    background-color: rgb(14, 53, 59) !important ;
+    width:33.33%;
+    float: left;
+}
+.score-level .level{
+    background-color: rgb(14, 53, 59)!important  ;
+    width:33.33%;
+    float: left;
+    text-align: right;
+}
+.score-level .points{
+    background-color: rgb(14, 53, 59)!important  ;
+    width:33.33%;
+    float: left;
+}
+.level-btn{
+    margin-right:30%;
+    margin-left:30%;
+    padding: 24px;
+}
+.btn{
+    min-width: 200px;
+    min-height: 50px;
+    width:100%;
+    cursor: pointer;
+    background-color: rgb(123,123,123);
+}
+.btn:hover{
+    background-color: rgb(170,170,170);
+}
+.total-score{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.btn-replay{
+    width:30%;
+    margin-left:35%;
+    margin-right:35%;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: rgb(123,123,123);
+    display:none;
+    margin-top:50px;
+}
